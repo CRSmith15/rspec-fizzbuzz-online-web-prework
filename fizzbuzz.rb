@@ -2,12 +2,13 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(number)
   if number % 3== 0
-    return "Fizz"
+    if number % 5 == 0
+      return"FizzBuzz"
+    else
+      return "Fizz"
+    end
   elsif number % 5 == 0
     return "Buzz"
-  elsif number % 3 == 0
-    if nummber % 5 == 0
-      return "FizzBuzz"
   end
   
   
